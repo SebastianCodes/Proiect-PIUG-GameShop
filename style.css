@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    height: 50vh;
+}
+.navbar-style
+{
+    box-shadow: 0 5px 10px #efefef;
+    text-transform: uppercase;
+}
+.logo
+{
+    height: 48px;
+    padding: 2px 10px;
+}
+.icon-bar
+{
+    background: blue;
+}
+li a{
+    color: black;
+}
+
+#slider{
+    overflow: hidden;
+}
+
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+
+#slider figure img{
+    width: 10%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.iframe-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.iframe-container iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 50%;
+    margin-left: 15%;
+}
+
+h1{
+   text-align: center;  
+}
+
+.footer{
+    padding: 40px 0;
+    background-color: white;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: blue;
+    font-size: 22px;
+}
+
+.footer .social .a{
+    font-size: 24px;
+    color: blue;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .social .a:hover{
+    opacity: 0.9;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.search-box{
+    float: right;
+    display: flex;
+    margin: 10px 25px;
+}
+
+.tbox{
+    width: 200px;
+}
+
+.btn{
+    width: 50px;
+    background: whitesmoke;
+}
+
+.ps4Container{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.ps4{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.left{
+    height: 100%;
+    background: url("ps4.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.right{
+    padding: 25px 40px;
+}
+
+
+.ps5Container{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.ps5{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.ps5left{
+    height: 100%;
+    background: url("ps5box.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.ps5right{
+    padding: 25px 40px;
+}
+
+.oneSContainer{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.oneS{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.oneSleft{
+    height: 100%;
+    background: url("oneSBox.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.oneSright{
+    padding: 25px 40px;
+}
+
+.seriesSContainer{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.seriesS{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.seriesSleft{
+    height: 100%;
+    background: url("seriesSBox.png") no-repeat center;
+    background-size: cover;
+}
+
+.seriesSright{
+    padding: 25px 40px;
+}
+
+.seriesXContainer{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.seriesX{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.seriesXleft{
+    height: 100%;
+    background: url("seriesXBox.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.seriesXright{
+    padding: 25px 40px;
+}
+
+.switchContainer{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.switch{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.switchleft{
+    height: 100%;
+    background: url("switch.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.switchright{
+    padding: 25px 40px;
+}
+
+.gtaPs4Container{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.gtaps4{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.gtaps4left{
+    height: 100%;
+    background: url("gtaps4.webp") no-repeat center;
+    background-size: cover;
+}
+
+.gtaps4right{
+    padding: 25px 40px;
+}
+
+.gtaXboxContainer{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.gtaxbox{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.gtaxboxleft{
+    height: 100%;
+    background: url("gtaxbox.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.gtaxboxright{
+    padding: 25px 40px;
+}
+
+.fifaPs4Container{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.fifaps4{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.fifaps4left{
+    height: 100%;
+    background: url("fifaps4.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.fifaps4right{
+    padding: 25px 40px;
+}
+
+.fifaXboxContainer{
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 100px;
+}
+
+.fifaxbox{
+    max-width: 850px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 19px 5px rgb(0, 0, 0, 0.19);
+}
+
+.fifaxboxleft{
+    height: 100%;
+    background: url("fifaxbox.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.fifaxboxright{
+    padding: 25px 40px;
+}
+
+.buyBtn{
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    outline: none;
+    border: round;
+}
+
+@media screen and (max-width:1500px) {
+    .ps4{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        height: 100px;
+    }
+    .ps5{
+        grid-template-columns: 1fr;
+    }
+    .ps5left{
+        height: 100px;
+    }
+    .oneS{
+        grid-template-columns: 1fr;
+    }
+    .oneSleft{
+        height: 100px;
+    }
+    .seriesS{
+        grid-template-columns: 1fr;
+    }
+    .seriesSleft{
+        height: 100px;
+    }
+    .seriesX{
+        grid-template-columns: 1fr;
+    }
+    .seriesXleft{
+        height: 100px;
+    }
+    .switch{
+        grid-template-columns: 1fr;
+    }
+    .switchleft{
+        height: 100px;
+    }
+    .gtaps4{
+        grid-template-columns: 1fr;
+    }
+    .gtaps4left{
+        height: 100px;
+    }
+    .gtaxbox{
+        grid-template-columns: 1fr;
+    }
+    .gtaxboxleft{
+        height: 100px;
+    }
+    .fifaps4{
+        grid-template-columns: 1fr;
+    }
+    .fifaps4left{
+        height: 100px;
+    }
+    .fifaxbox{
+        grid-template-columns: 1fr;
+    }
+    .fifaxboxleft{
+        height: 100px;
+    }
+}
+
+h2{
+    position: relative;
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+p{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.gotop{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: blue;
+    background-color: white;
+    bottom: 60px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+.godown{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: blue;
+    background-color: white;
+    bottom: 20px;
+    right: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+.order{
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+.pic{
+    flex-basis: 50%;
+    position: relative;
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+}
+
+.orderbox{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.orderbox h2{
+    font-size: 3em;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.orderbox form{
+    width: 60%;
+}
+
+.orderbox form input{
+    width: 100%;
+    border: 1px solid #26ade4;
+    border-radius: 3px;
+    height: 40px;
+    padding: 5px 7px;
+    margin-bottom: 20px;
+}
+
+.orderBtn{
+    background-color: #26ade4;
+    color: #fff;
+    border: 0;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media(max-width: 768px){
+    .order{
+        flex-direction: column;
+    }
+}
